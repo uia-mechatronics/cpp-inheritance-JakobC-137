@@ -1,7 +1,6 @@
 #ifndef POSITION_H
 #define POSITION_H
 
-
 class Position
 {
 public:
@@ -9,6 +8,13 @@ public:
     ~Position();
 
     // Legg til get- og set-funksjoner her.
+    double getXPosition();
+    double getYPosition();
+    void setXPosition();
+    void setYPosition();
+
+    void test();
+
 
 private:
 
